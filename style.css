@@ -1,0 +1,474 @@
+body {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/*Parte de arriba*/
+.contenedor-de-header-y-saludo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 600px;
+  background-image: url(./images/puntitos.svg);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+  height: 80px;
+  margin: 17px 17px 0 17px;
+  box-sizing: border-box;
+}
+.contenedor-de-logo {
+  width: 54px;
+  height: 100%;
+}
+.logo {
+  height: 100%;
+}
+.contenedor-de-links {
+  display: flex;
+  flex-direction: column;
+  width: 37px;
+  height: 50px;
+  gap: 8px;
+  padding-top: 7%;
+  margin-right: 10px;
+}
+.link {
+  height: 7px;
+  background: #141414;
+}
+.menu {
+  display: none;
+}
+.contenedor-saYfoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+}
+.saludo {
+  height: 96px;
+  width: 290px;
+  font-family: "open sans";
+  font-size: 20px;
+}
+.contenedor-de-foto {
+  padding-left: 10%;
+  height: 318px;
+  width: 300px;
+  margin-bottom: 0px;
+}
+
+.foto {
+  height: 100%;
+}
+
+/*Descripcion*/
+#descripcion {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  height: 538px;
+  align-items: center;
+  padding: 7%;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  width: 271px;
+  margin-bottom: 10%;
+}
+.h1 {
+  font-family: "open sans";
+  color: #fafafa;
+  font-size: 25px;
+}
+.detalle {
+  height: 193px;
+  width: 300px;
+}
+.h2 {
+  font-family: "open sans";
+  color: #fafafa;
+  font-size: 16px;
+  border: solid;
+  border-color: #ffd953;
+  padding: 10px;
+  border-radius: 15px;
+}
+.contenedor-de-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin-top: 30%;
+}
+.check {
+  height: 100%;
+  animation: subeYbaja 2.5s linear infinite;
+}
+
+@keyframes subeYbaja {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*Servicios*/
+#servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffd953;
+  height: 1375px;
+  padding: 57px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.titulo-de-servicios {
+  font-family: "open sans";
+  font-size: 32px;
+}
+.contenedor-de-los-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 271px;
+}
+
+.cosas {
+  font-family: "Roboto";
+  font-size: 24px;
+  margin: 0 50px 0 50px;
+  color: #2c2c2c;
+}
+.texto-descriptivo {
+  margin-top: 5%;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-bottom: 30%;
+  color: #2c2c2c;
+}
+
+/*Form*/
+#contenedor-de-formulario {
+  background-color: #141414;
+  height: 660px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.escribime {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: "open sans";
+  color: #fafafa;
+}
+.contenedor-de-forms {
+  width: 335px;
+}
+.nombre {
+  color: #fafafa;
+  margin-bottom: 2%;
+  font-size: 13px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 3px solid #2c2c2c;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.email {
+  color: #fafafa;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+}
+.mensaje {
+  color: #fafafa;
+  margin-bottom: 2%;
+  font-size: 17px;
+}
+textarea {
+  height: 130px;
+  width: 100%;
+  border: 3px solid #2c2c2c;
+
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button {
+  background: #ffd953;
+  width: 100%;
+  height: 45px;
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enviar {
+  font-size: 16px;
+  color: #141414;
+}
+
+/*Footer*/
+.footer {
+  background-color: #dbdbdb;
+}
+.logo-2 {
+  height: 110px;
+  width: 100px;
+  margin-top: 45px;
+  margin-left: 5px;
+}
+.contenedor-copyright {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-left: 15px;
+  margin-bottom: 75px;
+}
+.C {
+  height: 10px;
+}
+.texto-del-copy {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 5px;
+}
+.contenedor-de-redes {
+  padding-bottom: 10%;
+}
+.contenedor-instagram {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  margin-bottom: 29px;
+  margin-left: 19px;
+  font-family: "Roboto";
+  gap: 5px;
+}
+.contenedor-linkedin {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  margin-bottom: 25px;
+  margin-left: 19px;
+  font-family: "Roboto";
+  gap: 5px;
+}
+.linkedin-image {
+  height: 27px;
+}
+.contenedor-github {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+  font-family: "Roboto";
+  gap: 5px;
+}
+.github-image {
+  height: 27px;
+}
+
+@media (min-width: 950px) {
+  /* Parte de arriba*/
+  .contenedor-de-header-y-saludo {
+    height: max-content;
+  }
+  .header {
+    height: 20%;
+  }
+  .contenedor-de-links {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 430px;
+    justify-content: space-between;
+    padding-top: 0%;
+  }
+  .opcion-1 {
+    width: 30%;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 24px;
+
+    height: 100%;
+  }
+  .opcion-2 {
+    width: 30%;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 24px;
+
+    height: 100%;
+  }
+  .opcion-3 {
+    width: 30%;
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 24px;
+
+    height: 100%;
+  }
+  .contenedor-saYfoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0%;
+  }
+  .saludo {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    height: auto;
+    width: auto;
+  }
+  .contenedor-de-foto {
+    width: 433px;
+    height: 395px;
+    margin-bottom: 0%;
+  }
+  /*Descripcion*/
+  #descripcion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 15%;
+    height: 538px;
+  }
+  .contenedor-de-check {
+    height: 211px;
+    width: 211px;
+    margin-right: 120%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .check {
+    height: 100%;
+  }
+  .titulo {
+    height: 44px;
+    width: 271px;
+    margin-bottom: 10%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .h1 {
+    margin-right: 18%;
+  }
+  .detalles {
+    height: 193px;
+    width: 600px;
+    grid-column: 2 / span 3;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    margin-top: 50px;
+  }
+  /*Servicios*/
+  .titulo-de-servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "open sans";
+    font-size: 32px;
+  }
+  .contenedor-de-pcs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-de-los-servicios {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    max-width: none;
+  }
+  #servicios {
+    height: 538px;
+  }
+  .texto-descriptivo {
+    width: 70%;
+  }
+
+  /*Forms*/
+  #contenedor-de-formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+    gap: 10%;
+  }
+  .escribime {
+    padding-bottom: 45%;
+  }
+  .contenedor-de-forms {
+    margin-top: 5%;
+  }
+  /*Footer*/
+  .footer {
+    background-image: url(images/puntitos-2.png);
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 190px 0% 190px;
+  }
+  .contenedor-logo-y-copy {
+    margin-top: 2%;
+  }
+  .contenedor-de-redes {
+    margin-top: 10%;
+  }
+  .logo-2 {
+    height: 170px;
+    width: 170px;
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-bottom: 0%;
+  }
+  .contenedor-copyright {
+    height: 15px;
+    margin-left: 37px;
+    margin-top: none;
+  }
+  .texto-del-copy {
+    font-size: 10px;
+  }
+}
